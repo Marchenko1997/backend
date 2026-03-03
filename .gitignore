@@ -9,3 +9,4 @@ sets/
 .env.dev
 .env.prod
 aws-key.pem
+secrets/
