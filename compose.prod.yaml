@@ -49,7 +49,7 @@ services:
       - static_api_volume:/app/api-static
       - media_volume:/app/media
     ports:
-      - 8005:80
+      - 80:80
     depends_on:
       - web
 
