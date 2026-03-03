@@ -25,6 +25,7 @@ services:
     expose:
       - 8000
     volumes:
+      - static_volume:/usr/src/myapp/static
       - media_volume:/usr/src/myapp/media
     restart: unless-stopped
     environment:
